@@ -4,11 +4,17 @@ An intelligent, AI-driven personal movie assistant that provides details, cast i
 
 ## ✨ Features
 
-- **Popular Movies**: Instantly get a list of trending and popular movies.
+- **Popular Movies**: Instantly - `get_similar_movies(movie_id)`: Fetches similar movies.
+  - `get_movie_videos(movie_id)`: Fetches movie trailers and teasers.
+  - `get_movie_providers(movie_id)`: Fetches streaming and rental providers.
 - **Movie Details**: Retrieve deep-dive information including genres, runtimes, budgets, and revenues.
+- **Videos & Trailers**: Find movie trailers, teasers, and clips directly.
+- **Watch Providers**: See where to stream, rent, or buy movies (e.g., Netflix, Disney+, Apple TV).
 - **Cast & Crew**: Find out who starred in your favorite films with image previews.
 - **Similar Recommendations**: Discover new movies with AI-powered similarity matching.
 - **Interactive Chat**: Talk to the movie expert directly in a dedicated Jupyter Notebook interface.
+
+For a deep dive into how the agent manages memory and tool usage, see the **[Technical Explainer](TECHNICAL_EXPLAINER.md)**.
 
 ## 🚀 Getting Started
 

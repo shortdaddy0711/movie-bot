@@ -15,3 +15,6 @@ venv/
 
 # Python version
 .python-version
+
+# Documentation
+docs
